@@ -1,0 +1,30 @@
+.place__image {
+    max-width: calc((100% - 40px)/2);
+    width: 100%;
+    object-fit: cover;
+    align-self: flex-start;
+}
+@media (min-width : 1024px) and (max-width : 1279px) {
+  .place__image {
+    max-width: calc(100% - 32px)/2;
+  }
+}
+@media (min-width : 768px) and (max-width : 1023px) {
+  .place__image {
+    max-width: calc(100% - 28px)/2;
+  }
+}
+@media (min-width : 375px) and (max-width : 767px) {
+  .place__image {
+    max-width: 100%;
+    width: 100%;
+    margin: auto;    
+ }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+  .place__image {
+    max-width: 100%;
+   
+    margin: auto; 
+  }
+}

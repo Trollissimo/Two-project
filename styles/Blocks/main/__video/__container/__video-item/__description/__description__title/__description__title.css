@@ -1,0 +1,32 @@
+.description__title {
+    width: 322px;
+    font-size: 36px;
+    line-height: 39px;
+    margin: 0;
+    margin-top: 12px;
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+    .description__title {
+        width: 300px;
+        font-size: 24px;
+        line-height: 26px;
+        margin-top: 8px;
+    }
+}
+@media (min-width : 375px) and (max-width : 767px) {
+    .description__title {
+        width: 300px;
+        font-size: 24px;
+        line-height: 26px;
+        margin-top: 8px;
+    }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+    .description__title {
+        width: 288px;
+        font-size: 24px;
+        line-height: 26px;
+        margin-top: 8px;
+    }
+}

@@ -1,0 +1,14 @@
+@import url("./__footer__link/__footer__link.css");
+
+.nav__item{
+    display: inline;
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+@media (min-width : 320px) and (max-width : 767px) {
+    .nav__item {      
+      margin-top: 32px;
+    }
+}

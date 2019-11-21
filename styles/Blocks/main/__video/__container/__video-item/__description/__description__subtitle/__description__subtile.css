@@ -1,0 +1,27 @@
+.description__subtitle {
+    width: 174px;
+    font-size: 14px;
+    line-height: 15px;
+    margin: 0;
+    font-weight: normal;
+    margin-top: 18px;
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+    .description__subtitle {
+        width: 300px;
+        margin-top: 8px;
+    }
+}
+@media (min-width : 375px) and (max-width : 767px) {
+    .description__subtitle {
+        width: 100%;
+        margin-top: 8px;
+    }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+    .description__subtitle {
+        width: 100%;
+        margin-top: 8px;
+    }
+}

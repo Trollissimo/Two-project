@@ -1,0 +1,26 @@
+@import url("./__nav/__nav.css");
+@import url("./__footer__copyright/__footer__copyright.css");
+
+
+
+.footer {    
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 160px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: baseline;
+}
+
+
+@media (min-width : 320px) and (max-width : 767px) {
+  .footer {
+    flex-direction: column;
+    margin-bottom: 24px;
+    margin-top: 16px;
+  }
+}

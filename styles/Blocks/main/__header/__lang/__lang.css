@@ -1,0 +1,19 @@
+@import url("./__link/__lang__link.css");
+
+.lang {
+    width: 68px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (min-width : 375px) and (max-width : 767px) {
+    .lang {
+        margin-top: 20px;
+    }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+    .lang {
+        margin-top: 16px;
+    }
+  }

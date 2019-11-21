@@ -1,0 +1,41 @@
+.paragraph {
+    max-width: calc((100% - 40px)/2);
+    width: 100%;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 40px;    
+    font-style: normal;
+    font-weight: normal;
+    align-self: flex-start;
+}
+
+@media (min-width : 1024px) and (max-width : 1279px) {
+    .paragraph {
+      max-width: calc(100% - 32px)/2;
+      margin-left: 32px;
+    }
+}
+@media (min-width : 768px) and (max-width : 1023px) {
+    .paragraph {
+        max-width: calc(100% - 28px)/2;
+        margin-left: 28px;
+        font-size: 16px;
+    }
+}
+@media (min-width : 375px) and (max-width : 767px) {
+    .paragraph {
+        max-width: 100%;
+        margin-right: 0;
+        font-size: 16px;
+        margin-top: 24px;
+        margin-left: 0;
+    }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+    .paragraph {
+        max-width: 100%;
+        margin-left: 0;
+        font-size: 16px;
+        margin-top: 24px;
+    }
+}

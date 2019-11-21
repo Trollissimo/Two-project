@@ -1,0 +1,39 @@
+@import url("./__url/__url.css");
+@import url("./__link/__place__link.css");
+
+
+.place__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: calc((100% - 40px)/2);
+    width: 100%;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+
+@media (min-width : 1024px) and (max-width : 1279px) {
+    .place__website {
+      max-width: calc((100% - 32px)/2);
+      margin-left: 32px;
+      margin-bottom: 40px;
+    }
+}
+@media (min-width : 768px) and (max-width : 1023px) {
+  .place__website {
+    max-width: calc((100% - 28px)/2);
+    margin-left: 28px;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width : 375px) and (max-width : 767px) {
+  .place__website {
+    display: none;
+  }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+  .place__website {
+    display: none;
+}
+}

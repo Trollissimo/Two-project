@@ -1,0 +1,21 @@
+@import url("./__title/__place__title.css");
+@import url("./__image/__place__image.css");
+@import url("./__website/__website.css");
+@import url("./__paragraph/__paragraph.css");
+
+.place {    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;    
+    color: #ffffff;
+    font-family: Inter;
+    margin-bottom: 72px;
+    box-sizing: border-box;
+}
+.places {
+    margin: auto;
+    margin-top: 92px;
+    max-width: 76.875%;
+}

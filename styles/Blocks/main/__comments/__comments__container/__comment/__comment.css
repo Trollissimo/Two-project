@@ -1,0 +1,25 @@
+@import url("./__comment__image/__comment__image.css");
+@import url("./__comment__quote/__comment__quote.css");
+@import url("./__comment__author/__comment__author.css");
+
+.comment {
+    width: calc((100% - 38px)/3);
+    position: relative;
+}
+@media (min-width : 768px) and (max-width : 1023px) {
+    .comment {
+        max-width: 768px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width : 320px) and (max-width : 767px) {
+    .comment {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,33 @@
+.lead__image {
+    display: block;
+    max-width: calc(100% - 148px*2);
+    background-size: cover;
+    margin-top: 78px;
+}
+
+@media (min-width : 1024px) and (max-width : 1279px) {
+    .lead__image {
+        max-width: calc(100% - 48px*2);
+      }
+}
+@media (min-width : 768px) and (max-width : 1023px) {
+    .lead__image {
+      max-width: 1023px;
+      width: 100%;
+      margin: 0;
+    }
+}
+@media (min-width : 375px) and (max-width : 767px) {
+  .lead__image {
+    max-width: 767px;
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+  .lead__image {
+    max-width: 374px;
+    width: 100%;
+    margin: 0;
+  }
+}

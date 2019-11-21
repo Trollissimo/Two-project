@@ -1,0 +1,22 @@
+@import url("./__description__duration/__description__duration.css");
+@import url("./__description__subtitle/__description__subtile.css");
+@import url("./__description__title/__description__title.css");
+
+.description {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+@media (min-width : 375px) and (max-width : 767px) {
+    .description {
+    left: 24px;
+    bottom: 24px;
+    }
+  }
+  @media (min-width : 320px) and (max-width : 374px) {
+    .description {
+      left: 16px;
+      bottom: 16px;
+      }
+  }

@@ -1,0 +1,12 @@
+@import url("../Blocks/main/__main.css");
+@import url("../vendor/normalize.css");
+@import url("../Blocks/main/__header/__header.css");
+@import url("../Blocks/main/__lead/__lead.css");
+@import url("../Blocks/main/__intro/__intro.css");
+@import url("../Blocks/main/__photo-grid/__photo-grid.css");
+@import url("../Blocks/main/__places/__place.css");
+@import url("../Blocks/main/__video/__video.css");
+@import url("../Blocks/main/__comments/__comments.css");
+@import url("../Blocks/main/__cover/__cover.css");
+@import url("../Blocks/main/__footer/__footer.css");
+
